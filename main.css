@@ -122,7 +122,7 @@ body {
     height:150px;
 }
 .project-name{
-    color:#ef626c;
+    color:#DA5A63;
     font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     font-size: 35px;
@@ -145,7 +145,7 @@ body {
     font-size: 12px;
 }
 .project-description{
-    color: #EF626C;
+    color: #DA5A63;
     font-size: 14px;
 }
 .contact-section{
