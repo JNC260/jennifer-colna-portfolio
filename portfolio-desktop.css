@@ -9,7 +9,7 @@ body {
     width: 100%;
     height: 100%;
     margin:0px;
-    background-color: #f6e8ea;
+    background-color: #545F66;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
 }
@@ -49,17 +49,15 @@ body {
     width: 16.666667%;
 }
 .banner{
-    position:fixed;
     width:100%;
     height:140px;
     background-image: url('https://previews.dropbox.com/p/thumb/AAIAnNaMkWoUez8TJB2EXYgI1zDYrkqVGhNr3vQJnVIlsshOHKq5yhrCxAqG7GdC8vMo5ODt3Fl2-Um927wmjiHm1CYFBjH9AIAyTXTIzWJzaUAdnqKFkK5pc35PtObV_B-PxaNq6q8ne0z5lCpsijISEpz79-ms7Msb1sVlFsp0S9wpqqc0b55aC2y7sKoEx-_FCGqzjY7MBAK4dEn9cpMS1tcP6G4Gt1HdvR_8m3C9lA/p.jpeg?size=2048x1536&size_mode=3');
-    /* background-image: url('https://previews.dropbox.com/p/thumb/AAJzSLzKxJzyQr7yA39u-evh5tkbapdi40OjxIGNGqJ5DmYsKzL5yQ82344Rqd8oB0Lz1ehISMcHAaf1CKEFbRAUM2mbih_CabkesQLHZaQ6pjzASu45aNTOB6aBAaWg3j5eZ3TUhAmyUC2cTTP0gvc0dYhZ6vksnlw-uUpHmqAxfg/p.jpeg?size=2048x1536&size_mode=3');
-    background-image: url('https://previews.dropbox.com/p/thumb/AAKG-MfmWpOIhOo-KgSWsm8eAnm3pHlo6Lkl-z7SPPNSX_NlWo2UWDqtZeu4UDtTGucNgO2eOFwI_mk2Fsk3r_k6i0ozDSbrchfibcxBoCL6BqwQbsx73XE9aYNV6oSr1wq9i2-mZBNiI4oN-qG4ChqCHLqitcShbdMB-fRM9Ur0iQ/p.jpeg?size=2048x1536&size_mode=3');
-    background-image: url('https://previews.dropbox.com/p/thumb/AAJb7j5b2ESOOCIw7kz8Xe25SmS0cGHsw2213osOEwuzCbT6AvhqvVZ_ggolGXK4qgEN9EQDOnquujbPhCi3GYtB5z9f0fZ5eZ-_4zuOj1E4_UUbGXjKxRyFPXPemXBhH7xpI4kyGQg4YBJX7z9LqoYX5N1dWcZlronU8gQhoFBcFpryP_NzzCy2ZsLTm9qQE63FlfegCmxviB98JESdPm1XcU1qb9iISRymMbfs5eso1g/p.jpeg?size=2048x1536&size_mode=3'); */
     background-size: cover;
+    border-bottom: solid 10px #F6E8EA;
 }
 .banner-name{
-    margin: 0px;
+    margin-top: -13px;
+    margin-bottom: 0px;
     font-weight: 500;
     font-size: 100px;
     color: #84dccf;
@@ -68,44 +66,56 @@ body {
     font-family: 'Grand Hotel', cursive;
 }
 .intro{
-    margin-left:10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .intro-heading{
     font-size: 65px;
     font-family: 'Grand Hotel', cursive;
     font-weight: 500;
-    margin-top: 150px;
     color: #84dccf;
-    text-shadow: 1px 1px 0px black;   
+    text-shadow: 1px 1px 0px black;  
+    margin-bottom: 10px; 
 }
 .intro-info{
-    color: #22181C;
+    color: #EF626C;
+    font-size: 25px;
+    margin: 0px;
 }
 .projects-section{
-    margin-left:10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .projects-heading{
     font-size: 65px;
+    margin-bottom: 10px;
+    margin-top:10px;
     font-family: 'Grand Hotel', cursive;
     font-weight: 500;
     color: #84dccf;
     text-shadow: 1px 1px 0px black;
 }
 .project-container{
-    margin-left:25%;
-    display:flex;
-    background-color: #ef626c;
+    margin-left: 15%;
+    background-color: #84dccf;
+    display: flex;
+    /* border: 2px solid #100B0D; */
     padding: 20px;
     border-radius: 5px;
+    width: 70%;
+    box-shadow: 1px 1px 1px black;
+    /* box-shadow: inset 0 0 25px #100B0D; */
 }
 .project-screenshot{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right:10px;
     border-radius: 5px;
+    height:150px;
+    width:150px;
 }
 .project-info{
-    background-color: #22181C;
+    background-color: #F6E8EA;
     margin-left:5px;
     margin-top:5px;
     padding:5px;
@@ -114,9 +124,16 @@ body {
 }
 .project-name{
     color:#ef626c;
+    font-family: 'Grand Hotel', cursive;
+    text-shadow: 1px 1px 0px black;
+    font-size: 35px;
+    font-weight: 500;
+    margin: 0px;
 }
 .built-with{
-    color: #22181C;
+    color: #100B0D;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .skill{
     color: #312f2f;
@@ -124,15 +141,18 @@ body {
     margin:5px;
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 1px 1px 1px black;
 }
 .project-description{
-    color: #f6e8ea;
+    color: #EF626C;
 }
 .contact-section{
-    margin-left:10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .contact-heading{
+    margin-bottom: 10px;
+    margin-top:10px;
     font-size: 65px;
     font-weight: 500;
     font-family: 'Grand Hotel', cursive;
@@ -143,6 +163,8 @@ body {
 
 }
 .icon{
-    color: #22181C;
+    width: 75px;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 }
