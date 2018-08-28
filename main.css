@@ -79,9 +79,10 @@ body {
     margin-top:20px; 
 }
 .intro-info{
-    color: #EF626C;
+    color: #F07079;
     font-size: 25px;
     margin: 0px;
+    text-shadow: 1px 1px 0px black;
 }
 .projects-section{
     margin-left: 10%;
@@ -136,7 +137,7 @@ body {
 
 }
 .skill{
-    color: #312f2f;
+    color: #100B0D;
     background-color: #84dccf;
     margin:1px;
     padding: 5px;
@@ -145,7 +146,7 @@ body {
     font-size: 12px;
 }
 .project-description{
-    color: #DA5A63;
+    color: #100B0D;
     font-size: 14px;
 }
 .contact-section{
