@@ -109,23 +109,23 @@ body {
 a:link{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
+    /* font-family: 'Grand Hotel', cursive; */
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 a:visited{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
+    /* font-family: 'Grand Hotel', cursive; */
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
+    /* font-family: 'Grand Hotel', cursive; */
     text-shadow: 1px 1px 0px black;
     text-align: center;
     font-size: 24px;
@@ -133,10 +133,19 @@ a:hover{
 a:active{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
+    /* font-family: 'Grand Hotel', cursive; */
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+}
+.link-container{
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.link-container li{
+    margin-right: 25px;
 }
 .project-screenshot{
     margin-top: 5px;
@@ -144,6 +153,7 @@ a:active{
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    float: right;
 
 }
 .project-info{
@@ -179,7 +189,7 @@ a:active{
 }
 .project-description{
     color: #100B0D;
-    font-size: 14px;
+    font-size: 18px;
 }
 .contact-section{
     margin-left: 10%;
@@ -300,23 +310,20 @@ body {
 a:link{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 a:visited{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
     font-size: 24px;
@@ -324,10 +331,18 @@ a:hover{
 a:active{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+}
+.link-container{
+    display: inline-flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.link-container li{
+    margin-right: 25px;
 }
 .project-screenshot{
     margin-top: 5px;
@@ -335,6 +350,7 @@ a:active{
     border-radius: 5px;
     width: 150px;
     height: 150px;
+    float: right;
 
 }
 .project-info{
@@ -370,7 +386,7 @@ a:active{
 }
 .project-description{
     color: #100B0D;
-    font-size: 14px;
+    font-size: 18px;
 }
 .contact-section{
     margin-left: 10%;
@@ -466,8 +482,8 @@ body {
     text-shadow: 1px 1px 0px black;
 }
 .projects-section{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .projects-heading{
     font-size: 60px;
@@ -483,31 +499,28 @@ body {
     display: inline-flex;
     padding: 20px;
     border-radius: 5px;
-    width: 100%;
+    width: 94%;
     box-shadow: 1px 1px 1px black;
     margin: 10px;
 }
 a:link{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     display: grid;
 }
 a:visited{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
 }
 a:hover{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
     font-size: 24px;
@@ -515,15 +528,25 @@ a:hover{
 a:active{
     text-decoration: none;
     color:#DA5A63;
-    font-family: 'Grand Hotel', cursive;
     text-shadow: 1px 1px 0px black;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
+}
+.link-container{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.link-container li{
+    margin-right: 0px;
 }
 .project-screenshot{
     margin-top: 5px;
     margin-bottom: 5px;
+    margin-left: 12%;
     border-radius: 5px;
+    width: 75%;
+    height: 150px;
 }
 .project-info{
     background-color: #F6E8EA;
@@ -558,11 +581,11 @@ a:active{
 }
 .project-description{
     color: #100B0D;
-    font-size: 14px;
+    font-size: 18px;
 }
 .contact-section{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 .contact-heading{
     margin-bottom: 10px;
@@ -578,8 +601,8 @@ a:active{
 }
 .icon{
     width: 60px;
-    margin-right: 15px;
-    margin-left: 15px;
-    margin-bottom:20px;
+    margin-right: 10%;
+    margin-left: 27%;
+    margin-bottom: 20px;
 }
 }
