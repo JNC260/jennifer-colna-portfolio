@@ -51,7 +51,7 @@ body {
 .banner{
     width:100%;
     height:140px;
-    background-image: url('https://previews.dropbox.com/p/thumb/AAIAnNaMkWoUez8TJB2EXYgI1zDYrkqVGhNr3vQJnVIlsshOHKq5yhrCxAqG7GdC8vMo5ODt3Fl2-Um927wmjiHm1CYFBjH9AIAyTXTIzWJzaUAdnqKFkK5pc35PtObV_B-PxaNq6q8ne0z5lCpsijISEpz79-ms7Msb1sVlFsp0S9wpqqc0b55aC2y7sKoEx-_FCGqzjY7MBAK4dEn9cpMS1tcP6G4Gt1HdvR_8m3C9lA/p.jpeg?size=2048x1536&size_mode=3');
+    background-image: url('https://github.com/JNC260/jennifer-colna-portfolio/blob/master/images/bannerbackground.jpg?raw=true');
     background-size: cover;
     border-bottom: solid 10px #F6E8EA;
 }
@@ -98,13 +98,13 @@ body {
     text-shadow: 1px 1px 0px black;
 }
 .project-container{
-    margin-left: 1%;
     background-color: #84dccf;
-    display: flex;
+    display: inline-flex;
     padding: 20px;
     border-radius: 5px;
-    width: 49%;
+    width: 100%;
     box-shadow: 1px 1px 1px black;
+    margin: 10px;
 }
 a:link{
     text-decoration: none;
@@ -148,11 +148,11 @@ a:active{
 }
 .project-info{
     background-color: #F6E8EA;
-    margin-left:5px;
-    margin-top:5px;
-    padding:5px;
-    border-radius:5px;
-    /* height:150px; */
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
 }
 .project-name{
     color:#DA5A63;
@@ -288,12 +288,13 @@ body {
     text-shadow: 1px 1px 0px black;
 }
 .project-container{
-    margin-top: 5px;
     background-color: #84dccf;
-    display: flex;
+    display: inline-flex;
     padding: 20px;
     border-radius: 5px;
+    width: 100%;
     box-shadow: 1px 1px 1px black;
+    margin: 10px;
     
 }
 a:link{
@@ -338,10 +339,10 @@ a:active{
 }
 .project-info{
     background-color: #F6E8EA;
-    margin-left:5px;
-    margin-top:5px;
-    padding:5px;
-    border-radius:5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
     width: 100%;
 }
 .project-name{
@@ -478,11 +479,13 @@ body {
     text-shadow: 1px 1px 0px black;
 }
 .project-container{
-    margin-top: 5px;
     background-color: #84dccf;
+    display: inline-flex;
     padding: 20px;
     border-radius: 5px;
+    width: 100%;
     box-shadow: 1px 1px 1px black;
+    margin: 10px;
 }
 a:link{
     text-decoration: none;
@@ -524,11 +527,11 @@ a:active{
 }
 .project-info{
     background-color: #F6E8EA;
-    margin-left:5px;
-    margin-top:5px;
-    padding:5px;
-    border-radius:5px;
-    /* height:150px; */
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
 }
 .project-name{
     color:#DA5A63;
