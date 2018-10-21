@@ -190,6 +190,27 @@ a:active{
 .project-description{
     color: #100B0D;
     font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.demo-container{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.demo-heading{
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.demo-detail{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: inline;
+    margin-right: 5px;
+    font-size: 14px;
 }
 .contact-section{
     margin-left: 10%;
@@ -301,7 +322,6 @@ body {
     width: 100%;
     box-shadow: 1px 1px 1px black;
     margin: 10px;
-    display: inline-flex;
 }
 a:link{
     text-decoration: none;
@@ -345,10 +365,8 @@ a:active{
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    width: 45%;
+    width: 100%;
     height: 100%;
-    margin-left: 2.5%;
-    margin-right: 5%;
 
 }
 .project-info{
@@ -357,7 +375,7 @@ a:active{
     margin-top: 5px;
     padding: 20px;
     border-radius: 5px;
-    width:45%;
+    width:100%;
 }
 .project-name{
     color:#DA5A63;
@@ -385,6 +403,27 @@ a:active{
 .project-description{
     color: #100B0D;
     font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.demo-container{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.demo-heading{
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.demo-detail{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: inline;
+    margin-right: 5px;
+    font-size: 14px;
 }
 .contact-section{
     margin-left: 10%;
@@ -493,10 +532,8 @@ body {
     background-color: #84dccf;
     padding: 20px;
     border-radius: 5px;
-    width: 94%;
     box-shadow: 1px 1px 1px black;
     margin: 10px;
-    display: inline-flex;
 }
 a:link{
     text-decoration: none;
@@ -504,7 +541,6 @@ a:link{
     text-shadow: 1px 1px 0px black;
     text-align: center;
     font-size: 16px;
-    display: grid;
 }
 a:visited{
     text-decoration: none;
@@ -540,10 +576,8 @@ a:active{
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
-    width: 45%;
-    height:100%;
-    margin-left: 5%;
-    margin-right:2.5%;
+    width: 100%;
+    height: 100%;
 }
 .project-info{
     background-color: #F6E8EA;
@@ -551,7 +585,7 @@ a:active{
     margin-top: 5px;
     padding: 20px;
     border-radius: 5px;
-    width:45%;
+    width:100%;
 }
 .project-name{
     color:#DA5A63;
@@ -579,6 +613,27 @@ a:active{
 .project-description{
     color: #100B0D;
     font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.demo-container{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.demo-heading{
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.demo-detail{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: inline;
+    margin-right: 5px;
+    font-size: 14px;
 }
 .contact-section{
     margin-left: 0%;
@@ -594,10 +649,10 @@ a:active{
     text-shadow: 1px 1px 0px black;
 }
 .contact-icons{
-    display: inline-flex;
+   
 }
 .icon{
     width: 50px;
-   margin:25px;
+   margin:20px;
 }
 }
